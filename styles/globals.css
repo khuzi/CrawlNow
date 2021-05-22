@@ -1,0 +1,56 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #fafafa;
+  --secondary-color: #7545FF;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.mainWarper {
+  padding: 0 2rem;
+}
+
+.MuiDrawer-paper {
+  background: var(--primary-color);
+}
+
+
+#hamid {
+  color:"red"
+}
+
+.MuiDataGrid-window {
+  font-family: "Roboto", sans-serif;
+}
+
+.MuiDataGrid-cell {
+  border: 1px solid #eee;
+}
+
+
+.tooltip_txt {
+  font-size: 14px;
+}

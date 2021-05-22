@@ -1,0 +1,33 @@
+.successful {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.title_msg {
+  text-align: center;
+}
+
+.green_mark {
+  width: 200px;
+  height: 200px;
+  margin-top: 1rem;
+}
+
+.btns {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btns > *:nth-child(1),
+.btns > *:nth-child(2) {
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  margin-right: 1rem;
+}
