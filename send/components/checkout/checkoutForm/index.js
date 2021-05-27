@@ -79,7 +79,7 @@ export const CheckoutForm = ({ paymentIntent, id, price, filename }) => {
           price: price,
         })
       );
-      router.push("/paymentSuccess");
+      router.push("/successful");
     }
   }, [paymentMethod]);
 
